@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({ quiet: true }); //quiet dosent display the message in the console env io injecting
 
 const ENV = {
     PORT: process.env.PORT,
